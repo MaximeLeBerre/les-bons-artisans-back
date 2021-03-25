@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const objectRoutes = require('./routes/object');
+const userRoutes = require('./routes/user');
 
 const app = express();
 
@@ -19,6 +20,8 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 app.use('/api/object', objectRoutes);
+app.use('/api/auth', userRoutes);
+
 
 
 
