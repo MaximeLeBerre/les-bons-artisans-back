@@ -4,7 +4,7 @@
 ### Clone this repository with :
 `https://github.com/MaximeLeBerre/les-bons-artisans-back.git`
 ### Open a new terminal in your code editor, make sure you are in the project folder and run :
-`npm install`
+`npm install` then
 `nodemon`
 
 ### Now, you run the app in the development mode.
