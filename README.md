@@ -7,6 +7,9 @@
 `npm install` then
 `nodemon`
 
+#### If you have an error for nodemon, you can install it with
+`npm install nodemon`
+
 ### Now, you run the app in the development mode.
 Open [http://localhost:5000](http://localhost:5000) in postman.
 
